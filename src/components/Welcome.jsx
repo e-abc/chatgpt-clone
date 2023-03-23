@@ -3,9 +3,9 @@ import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { useConversationsStore } from '@/store/conversations'
 
 const EXAMPLES = [
-  '¿Cómo iterar un array en JavaScript?',
-  'Explícame cómo funciona un coche',
-  '¿Por qué se dice que un gato tiene 7 vidas?'
+  '¿Cómo puedo crear usuarios masivamente?',
+  '¿Cómo activo las estadísticas',
+  '¿Qué pasa si borro una cohorte?'
 ]
 
 export function Welcome() {
@@ -19,7 +19,7 @@ export function Welcome() {
     >
       <div className='w-full px-6 text-gray-800 md:max-w-2xl lg:max-w-3xl md:h-full md:flex md:flex-col dark:text-gray-100'>
         <h1 className='text-4xl font-semibold text-center mt-6 sm:mt-[20vh] ml-auto mr-auto mb-10 flex gap-2 items-center justify-center'>
-          miduGPT
+          Chatgpt e-ABC Learning
         </h1>
 
         <p className='block max-w-md m-auto mb-10 text-center align-middle'>
@@ -27,21 +27,6 @@ export function Welcome() {
           creado con React <ReactIcon className='inline-block w-6 h-6' /> y
           Tailwind para fines educativos.
         </p>
-
-        <div className='flex max-w-xl m-auto gap-x-2'>
-          <a
-            className='flex items-center justify-center w-[250px] p-2 font-bold text-white bg-purple-700 rounded-full gap-x-2 hover:bg-purple-500 focus:border-purple-800 active:bg-purple-800 transition'
-            href='https://twitch.tv/midudev'
-          >
-            <TwitchIcon className='w-6 h-6' /> Sígueme en Twitch
-          </a>
-          <a
-            className='flex items-center justify-center w-[250px] p-2 font-bold text-white bg-black rounded-full gap-x-2 hover:bg-black/50 '
-            href='https://twitch.tv/midudev'
-          >
-            <GitHubIcon className='w-6 h-6' /> Ver código en GitHub
-          </a>
-        </div>
 
         <h3 className='flex items-center justify-center mt-8 mb-2 text-lg gap-x-2'><SunIcon />Ejemplos</h3>
 

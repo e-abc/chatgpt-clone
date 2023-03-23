@@ -42,17 +42,14 @@ export function Aside() {
 
       <aside className='fixed z-10 flex flex-col w-64 h-screen transition -translate-x-full md:transition-none lg:translate-x-0 bg-gptdarkgray'>
         <nav className='flex flex-col flex-1 h-full p-2 space-y-1'>
-          <button onClick={addNewConversation} className='flex items-center flex-shrink-0 gap-3 px-3 py-3 mb-2 text-sm text-white transition-colors duration-200 border rounded-md cursor-pointer hover:bg-gray-500/10 border-white/20'>
-            <PlusIcon />
-            New chat
-          </button>
+        
 
           <div className='flex-col flex-1 overflow-y-auto border-b border-white/20'>
             <div
               ref={animationParent}
               className='flex flex-col gap-2 text-sm text-gray-100'
             >
-              {Object.entries(conversationsInfo).map(
+              {/* {Object.entries(conversationsInfo).map(
                 ([key, conversationInfo]) => {
                   const isEditing = editConversationId === key
                   const Element = isEditing ? 'a' : 'div'
@@ -85,7 +82,7 @@ export function Aside() {
                     </Element>
                   )
                 }
-              )}
+              )} */}
             </div>
           </div>
           <button

@@ -97,14 +97,13 @@ export function ChatForm() {
       </form>
       <div className='px-3 pt-2 pb-3 text-xs text-center text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6'>
         <a
-          href='https://twitch.tv/midudev'
+          href='https://www.e-abclearning.com'
           target='_blank'
           rel='noreferrer'
           className='underline'
         >
-          Clon de ChatGPT creado por @midudev con Next.js y TailwindCSS
+          Clon de ChatGPT creado con Next.js y TailwindCSS
         </a>
-        . Creado con fines educativos y de aprendizaje.
       </div>
     </section>
   )
