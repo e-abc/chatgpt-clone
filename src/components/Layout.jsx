@@ -5,7 +5,7 @@ export function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>midu Chat GPT</title>
+        <title>Chat GPT e-ABC Learning</title>
       </Head>
       <div className='relative w-full h-screen bg-gptgray'>
         <Aside />
